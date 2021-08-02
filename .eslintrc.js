@@ -38,5 +38,6 @@ module.exports = {
     'import/no-named-as-default': ['off'],
     'react/jsx-props-no-spreading': ['off'],
     'object-curly-newline': ['off'],
+    'comma-dangle': ['off'],
   },
 }

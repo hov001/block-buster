@@ -1,22 +1,17 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Block buster",
+  "name": "Information app for movies",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/favicon%2Ffavicon.ico?alt=media&token=19ef861e-a213-4d6f-9a61-a504b748067b",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/favicon%2Fapple-icon-180x180.png?alt=media&token=762bbcc3-19b9-436c-9661-170d824721f3",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "180x180"
     },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
   ],
   "start_url": ".",
   "display": "standalone",

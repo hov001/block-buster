@@ -8,14 +8,20 @@ export default function Header() {
   const [sticky, setSticky] = useState(false)
   const [offset, setOffset] = useState(0)
 
+  const scrollFunc = () => {
+    if (offset > 165) {
+      setSticky(true)
+    } else {
+      setSticky(false)
+    }
+    setOffset(window.pageYOffset)
+  }
+
   useEffect(() => {
-    window.onscroll = () => {
-      if (offset > 165) {
-        setSticky(true)
-      } else {
-        setSticky(false)
-      }
-      setOffset(window.pageYOffset)
+    window.addEventListener('scroll', scrollFunc)
+
+    return () => {
+      window.removeEventListener('scroll', scrollFunc)
     }
   }, [offset])
 

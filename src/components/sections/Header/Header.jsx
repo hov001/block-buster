@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import classNames from 'classnames'
 import './Header.css'
 import Nav from '../../Nav/Nav'
@@ -7,13 +7,18 @@ import Search from '../../Search/Search'
 export default function Header() {
   const [sticky, setSticky] = useState(false)
   const [offset, setOffset] = useState(0)
+  const header = useRef(null)
+  const headerClass = classNames({ 'ht-header': true, sticky })
 
   const scrollFunc = () => {
-    if (offset > 165) {
+    const headerHeight = header.current.clientHeight
+
+    if (offset > headerHeight) {
       setSticky(true)
     } else {
       setSticky(false)
     }
+
     setOffset(window.pageYOffset)
   }
 
@@ -25,10 +30,8 @@ export default function Header() {
     }
   }, [offset])
 
-  const headerClass = classNames({ 'ht-header': true, sticky })
-
   return (
-    <header className={headerClass}>
+    <header ref={header} className={headerClass}>
       <div className="container">
         <Nav />
         <Search />

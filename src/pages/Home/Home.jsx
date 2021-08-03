@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <TitleSection />
+      <TitleSection text={'Movies'} />
       <MoviesList />
     </div>
   )

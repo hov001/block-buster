@@ -1,4 +1,7 @@
 import React from 'react'
+import './MoviesList.css'
+import Card from '../../Card/Card'
+import FilterBlock from '../../FilterBlock/FilterBlock'
 
 export default function MoviesList() {
   return (
@@ -6,216 +9,48 @@ export default function MoviesList() {
       <div className="container">
         <div className="row">
           <div className="col-md-12 col-sm-12 col-xs-12">
-            <div className="topbar-filter fw">
-              <p>
-                Found <span>1,608 movies</span> in total
-              </p>
-              <span>Sort by:</span>
-              <select>
-                <option value="popularity">Popularity Descending</option>
-                <option value="popularity">Popularity Ascending</option>
-                <option value="rating">Rating Descending</option>
-                <option value="rating">Rating Ascending</option>
-                <option value="date">Release date Descending</option>
-                <option value="date">Release date Ascending</option>
-              </select>
-              <a href="#" className="list">
-                <i className="ion-ios-list-outline" />
-              </a>
-              <a href="#" className="grid">
-                <i className="ion-grid active" />
-              </a>
-            </div>
+            <FilterBlock />
             <div className="flex-wrap-movielist mv-grid-fw">
-              <div className="movie-item-style-2 movie-item-style-1">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it1.jpg?alt=media&token=03f6928e-54ac-465e-8d9c-717d5207b30b"
-                  alt=""
-                />
-                <div className="hvr-inner">
-                  <a href="#">
-                    {' '}
-                    Read more <i className="ion-android-arrow-dropright" />{' '}
-                  </a>
-                </div>
-                <div className="mv-item-infor">
-                  <h6>
-                    <a href="#">oblivion</a>
-                  </h6>
-                  <p className="rate">
-                    <i className="ion-android-star" />
-                    <span>8.1</span> /10
-                  </p>
-                </div>
-              </div>
-              <div className="movie-item-style-2 movie-item-style-1">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it1.jpg?alt=media&token=03f6928e-54ac-465e-8d9c-717d5207b30b"
-                  alt=""
-                />
-                <div className="hvr-inner">
-                  <a href="#">
-                    {' '}
-                    Read more <i className="ion-android-arrow-dropright" />{' '}
-                  </a>
-                </div>
-                <div className="mv-item-infor">
-                  <h6>
-                    <a href="#">oblivion</a>
-                  </h6>
-                  <p className="rate">
-                    <i className="ion-android-star" />
-                    <span>8.1</span> /10
-                  </p>
-                </div>
-              </div>
-              <div className="movie-item-style-2 movie-item-style-1">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it1.jpg?alt=media&token=03f6928e-54ac-465e-8d9c-717d5207b30b"
-                  alt=""
-                />
-                <div className="hvr-inner">
-                  <a href="#">
-                    {' '}
-                    Read more <i className="ion-android-arrow-dropright" />{' '}
-                  </a>
-                </div>
-                <div className="mv-item-infor">
-                  <h6>
-                    <a href="#">oblivion</a>
-                  </h6>
-                  <p className="rate">
-                    <i className="ion-android-star" />
-                    <span>8.1</span> /10
-                  </p>
-                </div>
-              </div>
-              <div className="movie-item-style-2 movie-item-style-1">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it1.jpg?alt=media&token=03f6928e-54ac-465e-8d9c-717d5207b30b"
-                  alt=""
-                />
-                <div className="hvr-inner">
-                  <a href="#">
-                    {' '}
-                    Read more <i className="ion-android-arrow-dropright" />{' '}
-                  </a>
-                </div>
-                <div className="mv-item-infor">
-                  <h6>
-                    <a href="#">oblivion</a>
-                  </h6>
-                  <p className="rate">
-                    <i className="ion-android-star" />
-                    <span>8.1</span> /10
-                  </p>
-                </div>
-              </div>
-              <div className="movie-item-style-2 movie-item-style-1">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it1.jpg?alt=media&token=03f6928e-54ac-465e-8d9c-717d5207b30b"
-                  alt=""
-                />
-                <div className="hvr-inner">
-                  <a href="#">
-                    {' '}
-                    Read more <i className="ion-android-arrow-dropright" />{' '}
-                  </a>
-                </div>
-                <div className="mv-item-infor">
-                  <h6>
-                    <a href="#">oblivion</a>
-                  </h6>
-                  <p className="rate">
-                    <i className="ion-android-star" />
-                    <span>8.1</span> /10
-                  </p>
-                </div>
-              </div>
-              <div className="movie-item-style-2 movie-item-style-1">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it1.jpg?alt=media&token=03f6928e-54ac-465e-8d9c-717d5207b30b"
-                  alt=""
-                />
-                <div className="hvr-inner">
-                  <a href="#">
-                    {' '}
-                    Read more <i className="ion-android-arrow-dropright" />{' '}
-                  </a>
-                </div>
-                <div className="mv-item-infor">
-                  <h6>
-                    <a href="#">oblivion</a>
-                  </h6>
-                  <p className="rate">
-                    <i className="ion-android-star" />
-                    <span>8.1</span> /10
-                  </p>
-                </div>
-              </div>
-              <div className="movie-item-style-2 movie-item-style-1">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it1.jpg?alt=media&token=03f6928e-54ac-465e-8d9c-717d5207b30b"
-                  alt=""
-                />
-                <div className="hvr-inner">
-                  <a href="#">
-                    {' '}
-                    Read more <i className="ion-android-arrow-dropright" />{' '}
-                  </a>
-                </div>
-                <div className="mv-item-infor">
-                  <h6>
-                    <a href="#">oblivion</a>
-                  </h6>
-                  <p className="rate">
-                    <i className="ion-android-star" />
-                    <span>8.1</span> /10
-                  </p>
-                </div>
-              </div>
-              <div className="movie-item-style-2 movie-item-style-1">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it1.jpg?alt=media&token=03f6928e-54ac-465e-8d9c-717d5207b30b"
-                  alt=""
-                />
-                <div className="hvr-inner">
-                  <a href="#">
-                    {' '}
-                    Read more <i className="ion-android-arrow-dropright" />{' '}
-                  </a>
-                </div>
-                <div className="mv-item-infor">
-                  <h6>
-                    <a href="#">oblivion</a>
-                  </h6>
-                  <p className="rate">
-                    <i className="ion-android-star" />
-                    <span>8.1</span> /10
-                  </p>
-                </div>
-              </div>
-              <div className="movie-item-style-2 movie-item-style-1">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it1.jpg?alt=media&token=03f6928e-54ac-465e-8d9c-717d5207b30b"
-                  alt=""
-                />
-                <div className="hvr-inner">
-                  <a href="#">
-                    {' '}
-                    Read more <i className="ion-android-arrow-dropright" />{' '}
-                  </a>
-                </div>
-                <div className="mv-item-infor">
-                  <h6>
-                    <a href="#">oblivion</a>
-                  </h6>
-                  <p className="rate">
-                    <i className="ion-android-star" />
-                    <span>8.1</span> /10
-                  </p>
-                </div>
-              </div>
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
             </div>
             <div className="topbar-filter">
               <span>Movies per page:</span>

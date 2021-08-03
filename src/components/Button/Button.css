@@ -1,7 +1,8 @@
 .btn {
+    min-width: 85px;
     background-color: #dd003f;
     color: #ffffff;
-    padding: 11px 25px;
+    padding: 5px 9px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;

@@ -1,25 +1,31 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import classNames from 'classnames'
 import './Header.css'
 import Nav from '../../Nav/Nav'
+import Search from '../../Search/Search'
 
 export default function Header() {
-  const headerClass = classNames('ht-header')
+  const [sticky, setSticky] = useState(false)
+  const [offset, setOffset] = useState(0)
+
+  useEffect(() => {
+    window.onscroll = () => {
+      if (offset > 165) {
+        setSticky(true)
+      } else {
+        setSticky(false)
+      }
+      setOffset(window.pageYOffset)
+    }
+  }, [offset])
+
+  const headerClass = classNames({ 'ht-header': true, sticky })
 
   return (
     <header className={headerClass}>
       <div className="container">
         <Nav />
-        <div className="top-search">
-          <select>
-            <option value="united">TV show</option>
-            <option value="saab">Others</option>
-          </select>
-          <input
-            type="text"
-            placeholder="Search for a movie, TV Show or celebrity that you are looking for"
-          />
-        </div>
+        <Search />
       </div>
     </header>
   )

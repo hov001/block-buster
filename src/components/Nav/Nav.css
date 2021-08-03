@@ -65,12 +65,3 @@
     right: 0;
     margin-top: 3px;
 }
-
-.navbar-default .navbar-nav li.btn a {
-    background-color: #dd003f;
-    color: #ffffff;
-    padding: 11px 25px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-}

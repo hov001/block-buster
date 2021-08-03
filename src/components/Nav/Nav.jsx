@@ -1,6 +1,7 @@
 import React from 'react'
 import './Nav.css'
 import LogoSection from '../LogoSection/LogoSection'
+import Button from '../Button/Button'
 
 export default function Nav() {
   return (
@@ -11,30 +12,19 @@ export default function Nav() {
         id="bs-example-navbar-collapse-1"
       >
         <ul className="nav navbar-nav flex-child-menu menu-left">
-          <li className="dropdown first">
-            <a
-              className="btn btn-default dropdown-toggle lv1"
-              data-toggle="dropdown"
-            >
-              Home
-            </a>
+          <li className="first">
+            <a href="#">Movies</a>
           </li>
         </ul>
         <ul className="nav navbar-nav flex-child-menu menu-right">
-          <li className="dropdown first">
-            <a
-              className="btn btn-default dropdown-toggle lv1"
-              data-toggle="dropdown"
-              data-hover="dropdown"
-            >
-              pages
-            </a>
+          <li>
+            <a href="#">Favorites</a>
           </li>
-          <li className="loginLink">
-            <a href="#">LOG In</a>
+          <li>
+            <a href="#">Log in</a>
           </li>
-          <li className="btn signupLink">
-            <a href="#">sign up</a>
+          <li>
+            <Button text={'Sign up'} />
           </li>
         </ul>
       </div>

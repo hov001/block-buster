@@ -11,7 +11,7 @@
       "src": "https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/favicon%2Fapple-icon-180x180.png?alt=media&token=762bbcc3-19b9-436c-9661-170d824721f3",
       "type": "image/png",
       "sizes": "180x180"
-    },
+    }
   ],
   "start_url": ".",
   "display": "standalone",

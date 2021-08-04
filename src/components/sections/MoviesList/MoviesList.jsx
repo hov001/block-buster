@@ -19,6 +19,102 @@ export default function MoviesList() {
                 readMore={'#'}
                 averageRate={'8/1'}
               />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
+              <Card
+                name={'Film 1'}
+                imgLink={
+                  'https://firebasestorage.googleapis.com/v0/b/block-buster-71db3.appspot.com/o/uploads%2Fmv-it10.jpg?alt=media&token=1c8648ab-db44-4b87-896a-cca001587371'
+                }
+                readMore={'#'}
+                averageRate={'8/1'}
+              />
             </div>
           </div>
         </div>

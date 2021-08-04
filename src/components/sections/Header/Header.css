@@ -45,12 +45,11 @@ header {
 }
 
 @media (max-width: 991px) {
-
+    header .navbar-collapse.collapse.opened {
+        display: block;
+    }
     header .navbar-collapse.collapse {
         display: none;
-        border-top: none !important;
-        height: auto !important;
-        max-height: none !important;
     }
 
     header .navbar-header {

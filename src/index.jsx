@@ -1,12 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
 import reportWebVitals from './reportWebVitals'
+import Preloader from './components/Preloader/Preloader'
+
+const App = React.lazy(() => import('./App'))
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <React.Suspense fallback={<Preloader />}>
+      <App />
+    </React.Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 )

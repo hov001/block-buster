@@ -19,7 +19,7 @@ header {
     background-color: #0f2133;
     position: fixed;
     width: 100%;
-    z-index: 9999;
+    z-index: 998;
     -moz-opacity: 1;
     opacity: 1;
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);

@@ -2,6 +2,7 @@ import React from 'react'
 import './Nav.css'
 import LogoSection from '../LogoSection/LogoSection'
 import Button from '../Button/Button'
+import ClassNames from 'classnames'
 
 export default function Nav() {
   return (
@@ -24,7 +25,7 @@ export default function Nav() {
             <a href="#">Log in</a>
           </li>
           <li>
-            <Button text={'Sign up'} />
+            <Button text={'Sign up'} classes={ClassNames('btn')} />
           </li>
         </ul>
       </div>

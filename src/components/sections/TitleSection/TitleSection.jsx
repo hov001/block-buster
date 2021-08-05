@@ -2,6 +2,7 @@ import React from 'react'
 import './TitleSection.css'
 import ClassNames from 'classnames'
 import PropsTypes from 'prop-types'
+import Title from '../../Title/Title'
 
 export default function TitleSection({ text }) {
   const titleSectionClass = ClassNames('hero', 'common-hero')
@@ -16,7 +17,7 @@ export default function TitleSection({ text }) {
         <div className={sectionRowClass}>
           <div className={gridSection}>
             <div className={titleCenter}>
-              <h1>{text}</h1>
+              <Title text={text} color={'#fff'} />
             </div>
           </div>
         </div>

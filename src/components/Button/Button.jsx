@@ -1,13 +1,10 @@
 import React from 'react'
 import './Button.css'
-import ClassNames from 'classnames'
 import PropsTypes from 'prop-types'
 
-export default function Button({ text }) {
-  const btnClass = ClassNames('btn')
-
+export default function Button({ text, classes }) {
   return (
-    <button type={'button'} className={btnClass}>
+    <button type={'button'} className={classes}>
       {text}
     </button>
   )
@@ -15,4 +12,5 @@ export default function Button({ text }) {
 
 Button.propTypes = {
   text: PropsTypes.string,
+  classes: PropsTypes.string,
 }
